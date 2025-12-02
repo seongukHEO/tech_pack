@@ -31,20 +31,55 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  go_router:
   cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.9
+  flutter_riverpod: ^2.3.6
+  flutter_speed_dial: ^7.0.0
+  carousel_slider: ^5.0.0
+  smooth_page_indicator: ^1.2.0+3
+  image_picker: ^1.1.2
+  image: ^3.0.1
+  exif: ^2.0.4
+  shimmer: ^2.0.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.9.0
+  kakao_flutter_sdk_user:
+  http: ^1.2.2
+  flutter_dotenv: ^5.2.1
+  shared_preferences:
+  device_info_plus:
+  package_info_plus:
+  apple_product_name:
+  url_launcher: ^6.1.7
+  path_provider: ^2.0.11
+  internet_connection_checker: ^3.0.1
+  connectivity_plus: ^6.1.3
+  lottie: ^3.3.0
+  intl: ^0.20.2
+  table_calendar: ^3.1.2
+  cached_network_image: ^3.3.1
+  flutter_launcher_icons: ^0.11.0
+  sign_in_with_apple:
+  fl_chart: ^0.68.0
+
+
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.9.4
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^4.0.0
+  freezed: ^2.3.1
+  build_runner: ^2.4.5
+  json_serializable: ^6.7.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
