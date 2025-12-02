@@ -1,15 +1,16 @@
 import 'package:go_router/go_router.dart';
+import 'package:tech_pack/ui/home_screen.dart';
 import 'common/custom_transitions.dart';
 
 final GoRouter router = GoRouter(
-  initialLocation: RoutePath.splash,
+  initialLocation: RoutePath.home,
     routes: [
-      // GoRoute(
-      //     path: RoutePath.splash,
-      //     builder: (context, state){
-      //       return SplashScreen();
-      //     }
-      // ),
+      GoRoute(
+          path: RoutePath.home,
+          builder: (context, state){
+            return HomeScreen();
+          }
+      ),
     ],
   observers: [
     GoRouterObserver()

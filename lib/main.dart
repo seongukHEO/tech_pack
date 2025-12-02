@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tech_pack/tech_pack_web.dart';
 
+import 'common/mobile_layout.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -15,7 +17,9 @@ void main() async {
 
 
   runApp(
-    TechPackWeb(),
+    MobileLayout(
+      child: TechPackWeb(), // MyApp 안에 여러 화면이 있어도 전부 width 390 유지
+    ),
   );
 }
 
