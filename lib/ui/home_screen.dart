@@ -8,9 +8,21 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('dkdkdkdkdk'),
+        title: Text('사진 한 장으로 작업지시서'),
       ),
-      body: Container(color: Colors.red,),
+      body: Center(
+        child: Container(
+          height: 130,
+          width: 130,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(12), 
+              color: Colors.grey.shade400
+          ),
+          child: Center(
+            child: Icon(Icons.add),
+          ),
+        ),
+      )
     );
   }
 }
